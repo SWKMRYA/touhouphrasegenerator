@@ -116,7 +116,7 @@ genphrase();
 
 
 function blakeMode() {
-    console.log("you're welcome blakey-boo ;)");
+    console.log("yw blake");
 
     const blakeskuy = [
         {name: 'Sakuya Izayoi', img: 'char/sakuya.png'},
