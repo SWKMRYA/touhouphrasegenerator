@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PhraseGen</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>character action generator</h1>
+        <div class="phrase-container">
+            <div id="character1" class="character">
+                <img id="image1" class="character-image" alt="Character 1">
+                <span id="text1" class="character-text"></span>
+            </div>
+            <div id="actiontext" class="actiontext">is doing something with</div>
+            <div id="character2" class="character">
+                <img id="image2" class="character-image" alt="Character 2">
+                <span id="text2" class="character-text"></span>
+            </div>
+        </div>
+        <button id="generateButton">Generate</button>
+        <div class="switch-container">
+            <label for="imageSwitch">Display images</label>
+            <input type="checkbox" id="imageSwitch" checked>
+        </div>
+    </div>
+    <script src="javascript.js"></script>
+    <p id="credittext">Portraits by ZUN, alphes, and <a href="https://www.pixiv.net/en/users/4920496">dairi</a>.</p>
+</body>
+</html>
