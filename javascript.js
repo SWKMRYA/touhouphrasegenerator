@@ -1,6 +1,6 @@
 const characters = [
-    {name: 'Kana Anaberal', img: 'char/kana_anaberal.png'},
     {name: 'Reimu Hakurei', img: 'char/reimu.png'},
+    //{name: 'Kana Anaberal', img: 'char/kana_anaberal.png'}, (testing character)
     {name: 'Marisa Kirisame', img: 'char/marisa.png'},
     {name: 'Rumia', img: 'char/rumia.png'},
     {name: 'Daiyousei', img: 'char/daiyousei.png'},
@@ -28,7 +28,7 @@ const characters = [
     {name: 'Mystia Lorelei', img: 'char/mystia.png'},
     {name: 'Keine Kamishirasawa', img: 'char/keine.png'},
     {name: 'Tewi Inaba', img: 'char/tewi.png'},
-    {name: 'Reisen U. Inaba', img: 'char/udonge.png'},
+    {name: 'Reisen U. Inaba', img: 'char/reisen.png'},
     {name: 'Eirin Yagokoro', img: 'char/eirin.png'},
     {name: 'Kaguya Houraisan', img: 'char/kaguya.png'},
     {name: 'Fujiwara no Mokou', img: 'char/mokou.png'},
@@ -62,13 +62,79 @@ const characters = [
     {name: 'Minamatsu Murasa', img: 'char/murasa.png'},
     {name: 'Shou Toramaru', img: 'char/shou.png'},
     {name: 'Byakuren Hijiri', img: 'char/byakuren.png'},
+    {name: 'Kyouko Kasodani', img: 'char/kyouko.png'},
+    {name: 'Yoshika Miyako', img: 'char/yoshika.png'},
+    {name: 'Soga no Tojiko', img: 'char/tojiko.png'},
+    {name: 'Mononobe no Futo', img: 'char/futo.png'},
+    {name: 'Toyosatomimi no Miko', img: 'char/miko.png'},
+    {name: 'Mamizou Futatsuiwa', img: 'char/mamizou.png'},
+    {name: 'Wakasagihime', img: 'char/fish.png'},
+    {name: 'Sekibanki', img: 'char/sekibanki.png'},
+    {name: 'Kagerou Imaizumi', img: 'char/kagerou.png'},
+    {name: 'Benben Tsukumo', img: 'char/benben.png'},
+    {name: 'Yatsuhashi Tsukumo', img: 'char/yatsuhashi.png'},
+    {name: 'Seija Kijin', img: 'char/seija.png'},
+    {name: 'Shinmyoumaru Sukuna', img: 'char/shinmy.png'},
+    {name: 'Sumireko Usami', img: 'char/sumireko.png'},
     {name: 'Nue Houjuu', img: 'char/nue.png'},
-    {name: 'Goku', img: 'char/goku.png'},
+    {name: 'Seiran', img: 'char/seiran.png'},
+    {name: 'Ringo', img: 'char/ringo.png'},
+    {name: 'Doremy Sweet', img: 'char/buh.png'},
+    {name: 'Sagume Kishin', img: 'char/sagume.png'},
+    {name: 'Clownpiece', img: 'char/clownpiece.png'},
+    {name: 'Junko', img: 'char/junko.png'},
+    {name: 'Hecatia Lapizlazuli', img: 'char/hecatia.png'},
+    {name: 'Jo\'on Yorigami', img: 'char/joon.png'},
+    {name: 'Shion Yorigami', img: 'char/shion.png'},
+    {name: 'Eternity Larva', img: 'char/larva.png'},
+    {name: 'Nemuno Sakata', img: 'char/nemuno.png'},
+    {name: 'Aunn Komano', img: 'char/aunn.png'},
+    {name: 'Narumi Yatadera', img: 'char/narumi.png'},
+    {name: 'Mai Teireida', img: 'char/mai.png'},
+    {name: 'Satono Nishida', img: 'char/satono.png'},
+    {name: 'Okina Matara', img: 'char/okina.png'},
+    {name: 'Eika Ebisu', img: 'char/eika.png'},
+    {name: 'Urumi Ushizaki', img: 'char/urumi.png'},
+    {name: 'Kutaka Niwatari', img: 'char/kutaka.png'},
+    {name: 'Yachie Kicchou', img: 'char/yachie.png'},
+    {name: 'Mayumi Joutouguu', img: 'char/mayumi.png'},
+    {name: 'Keiki Haniyasushin', img: 'char/keiki.png'},
+    {name: 'Saki Kurokoma', img: 'char/saki.png'},
+    {name: 'Yuuma Toutetsu', img: 'char/yuuma.png'},
+    {name: 'Mike Goutokuji', img: 'char/mike.png'},
+    {name: 'Takane Yamashiro', img: 'char/takane.png'},
+    {name: 'Sannyo Komakusa', img: 'char/sannyo.png'},
+    {name: 'Misumaru Tamatsukuri', img: 'char/misumaru.png'},
+    {name: 'Tsukasa Kudamaki', img: 'char/tsukasa.png'},
+    {name: 'Megumu Iizunaramaru', img: 'char/megumu.png'},
+    {name: 'Chimata Tenkyuu', img: 'char/chimata.png'},
+    {name: 'Momoyo Himemushi', img: 'char/momoyo.png'},
+    {name: 'Son Biten', img: 'char/biten.png'},
+    {name: 'Enoko Mitsugashira', img: 'char/enoko.png'},
+    {name: 'Chiyari Tenkajin', img: 'char/chiyari.png'},
+    {name: 'Hisami Yomotsu', img: 'char/hisami.png'},
+    {name: 'Zanmu Nippaku', img: 'char/zanmu.png'},
+    {name: 'Maribel Hearn', img: 'char/merry.png'},
+    {name: 'Renko Usami', img: 'char/renko.png'},
+    {name: 'Rinnosuke Morichika', img: 'char/kourin.png'},
+    {name: 'Tokiko', img: 'char/tokiko.png'},
+    {name: 'Luna Child', img: 'char/luna.png'},
+    {name: 'Star Sapphire', img: 'char/star.png'},
+    {name: 'Sunny Milk', img: 'char/sunny.png'},
+    {name: 'Rei\'sen', img: 'char/reisen2.png'},
+    {name: 'Watatsuki no Yorihime', img: 'char/yorihime.png'},
+    {name: 'Watatsuki no Toyohime', img: 'char/toyohime.png'},
+    {name: 'Kasen Ibaraki', img: 'char/kasen.png'},
+    {name: 'Hieda no Akyuu', img: 'char/akyuu.png'},
+    {name: 'Kosuzu Motoori', img: 'char/kosuzu.png'},
+    //{name: 'Fortune Teller', img: 'char/dead.png'},
+    {name: 'Mizuchi Miyadeguchi', img: 'char/mizuchi.png'},
+    {name: 'Goku', img: 'char/goku.png'}, //test character but i'm keeping him in because it's funny
     // { name: 'Diavolo', img: 'diavolo.png' },
 ];
 
 const actions = [
-    'is holding hands with', 'is smooching', 'is fighting against', 'is teaming up with', 'is having a friendly conversion with', 'is cooking with', 'is having a tryst with', 'is fishing with', 'is having a whimsical time with', 'is making self-insert fanfiction about','\'s liver got stolen by', 'is making a tasty cup of tea for', 'is playing Crash Team Racing with', 'is making a videogame starring', 'sends a love letter to', 'commits arson with', 'stops a drug dealing crime organization in Italy with', 'watches Morbius with', 'makes a lets play series with', 'courts', 'is cooking methamphetamine with', 'beats Duelo Maestro with', 'is having a fight to the death with', 'is having a romantic dinner date with', 'is resting their weary head on the lap of', 'fucks up the cobblestone generator and gets lectured by', 'cooks a delicious homemade meal for', 'steals money from', 'gets told they\'re stinky and to take a shower by', 'gets invited to a sleepover by', 'gambles and loses all their money despite the warnings of', 'is having an unforgettable luncheon with', 'gets their house "accidentally" set on fire by', 'explodes the Scarlet Devil Mansion with', 'caused an incident with'
+    'is holding hands with', 'is making out with', 'is fighting against', 'is teaming up with', 'is having a friendly conversion with', 'is cooking with', 'is having a tryst with', 'is fishing with', 'is having a whimsical time with', 'is making self-insert fanfiction about','\'s liver got stolen by', 'is making a tasty cup of tea for', 'is playing Crash Team Racing with', 'is making a videogame starring', 'sends a love letter to', 'commits arson with', 'stops a drug dealing crime organization in Italy with', 'watches Morbius with', 'makes a lets play series with', 'courts', 'is cooking methamphetamine with', 'is having a fight to the death with', 'is having a romantic dinner date with', 'is resting their weary head on the lap of', 'fucks up the cobblestone generator and gets lectured by', 'cooks a delicious homemade meal for', 'steals money from', 'gets told they\'re stinky and to take a shower by', 'gets invited to a sleepover by', 'gambles and loses all their money despite the warnings of', 'is having an unforgettable luncheon with', 'gets their house "accidentally" set on fire by', 'explodes the Scarlet Devil Mansion with', 'caused an incident with', 'tries to summon a demon but ends up summoning', 'gets jumpscared by', '\' minecraft base gets griefed by', 'falls asleep and gets pranked by', 'causes an incident with', 'makes a minor spelling error while arguing with', 'spreads positivity to', 'makes a touhou lore video about', 'makes a goober art of', 'makes a documentary video titled "The Rise and Fall of', 'spends 10 years in the joint with'
 ];
 
 document.getElementById('generateButton').addEventListener('click', genphrase);
@@ -109,7 +175,6 @@ function updateDisplayMode() {
     texts.forEach(text => text.style.display = displayImages ? 'none' : 'block');
 }
 
-// Initial call to display the first phrase
 genphrase();
 
 
@@ -119,7 +184,7 @@ function blakeMode() {
     console.log("yw blake");
 
     const blakeskuy = [
-        {name: 'Sakuya Izayoi', img: 'char/sakuya.png'},
+        {name: 'Sakuya Izayoi', img: 'char/gooberskuy.png'},
         { name: 'Blake', img: 'char/blake.png'}
     ];
 
