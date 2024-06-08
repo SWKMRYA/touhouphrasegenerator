@@ -73,3 +73,9 @@ button:hover {
     position: absolute;
     bottom: 0;
 }
+
+#updatetext {
+    position: absolute;
+    top: 0;
+    font-size: 10px;
+}
